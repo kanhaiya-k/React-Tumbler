@@ -10,6 +10,7 @@ import Terviscustomyer from "./Image/create-010322.webp";
 import Createinfoimg from "./Image/create-info-010322.webp";
 import Everythingtervisimgright from "./Image/hpg-sustainability-032620.webp";
 import Everythingstervisleft from "./Image/hpg-heritage-032620.webp";
+import Slider from "./Slider";
 
 const Home = () => {
   return (
@@ -119,6 +120,7 @@ const Home = () => {
       {/* See Whats New and crousel div start here  */}
       <div className="see-whats-new-corolsaldiv">
         <h2>See What’s New</h2>
+        <Slider />
       </div>
       {/* See Whats new crousel div end here */}
 
